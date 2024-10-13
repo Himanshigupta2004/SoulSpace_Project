@@ -1,0 +1,138 @@
+[
+      {
+        "event_name": "Open Mic Sessions",
+        "time": "18:00 - 18:30",
+        "date": "2024-09-15",
+        "description": "Participants can share their thoughts, experiences, or simply listen to others in a supportive environment.",
+        "duration": "30 minutes",
+        "Organizer": "SoulSpace",
+        "image": "https://example.com/images/open_mic_sessions.jpg"
+      },
+      {
+        "event_name": "Guided Meditation",
+        "time": "18:30 - 18:50",
+        "date": "2024-09-15",
+        "description": "A professional guide will lead a meditation session to help participants relax and focus on the present moment.",
+        "duration": "20 minutes",
+        "Organizer": "CalmMind Collective",
+        "image": "https://example.com/images/guided_meditation.jpg"
+      },
+      {
+        "event_name": "Mental Health Expert Talk",
+        "time": "18:50 - 19:30",
+        "date": "2024-09-15",
+        "description": "A certified mental health professional will give a talk on managing anxiety and depression, followed by a Q&A session.",
+        "duration": "40 minutes",
+        "Organizer": "Mind Matters Foundation",
+        "image": "https://example.com/images/mental_health_talk.jpg"
+      },
+      {
+        "event_name": "Interactive Group Activities",
+        "time": "19:30 - 20:00",
+        "date": "2024-09-15",
+        "description": "Participants will be divided into small groups to engage in activities designed to foster connection and self-expression.",
+        "duration": "30 minutes",
+        "Organizer": "ConnectWell",
+        "image": "https://example.com/images/group_activities.jpg"
+      },
+      {
+        "event_name": "Art Therapy Session",
+        "time": "20:00 - 20:30",
+        "date": "2024-09-15",
+        "description": "Participants can express their emotions through creative art activities, guided by a professional art therapist.",
+        "duration": "30 minutes",
+        "Organizer": "Creative Minds",
+        "image": "https://example.com/images/art_therapy.jpg"
+      },
+      {
+        "event_name": "Yoga for Mental Health",
+        "time": "18:00 - 18:45",
+        "date": "2024-09-16",
+        "description": "A yoga session focusing on poses and breathing techniques that help reduce anxiety and promote mental well-being.",
+        "duration": "45 minutes",
+        "Organizer": "ZenFlow Yoga Studio",
+        "image": "https://example.com/images/yoga_mental_health.jpg"
+      },
+      {
+        "event_name": "Journaling Workshop",
+        "time": "18:45 - 19:15",
+        "date": "2024-09-16",
+        "description": "A workshop on how to use journaling as a tool for self-reflection and emotional processing.",
+        "duration": "30 minutes",
+        "Organizer": "WriteOut Foundation",
+        "image": "https://example.com/images/journaling_workshop.jpg"
+      },
+      {
+        "event_name": "Peer Support Group",
+        "time": "19:15 - 20:00",
+        "date": "2024-09-16",
+        "description": "An informal group discussion where participants can share their experiences and support each other.",
+        "duration": "45 minutes",
+        "Organizer": "Support Network",
+        "image": "https://example.com/images/peer_support_group.jpg"
+      },
+      {
+        "event_name": "Breathing Techniques for Anxiety Relief",
+        "time": "18:00 - 18:20",
+        "date": "2024-09-17",
+        "description": "A session focused on teaching simple breathing exercises that can help alleviate symptoms of anxiety.",
+        "duration": "20 minutes",
+        "Organizer": "BreatheEasy",
+        "image": "https://example.com/images/breathing_techniques.jpg"
+      },
+      {
+        "event_name": "Music Therapy Session",
+        "time": "18:20 - 19:00",
+        "date": "2024-09-17",
+        "description": "Participants will explore the therapeutic benefits of music through guided listening and creative expression.",
+        "duration": "40 minutes",
+        "Organizer": "Harmony Wellness",
+        "image": "https://example.com/images/music_therapy.jpg"
+      },
+      {
+        "event_name": "Self-Compassion Workshop",
+        "time": "19:00 - 19:45",
+        "date": "2024-09-17",
+        "description": "A workshop aimed at teaching participants how to be kinder to themselves and practice self-compassion.",
+        "duration": "45 minutes",
+        "Organizer": "HeartSpace",
+        "image": "https://example.com/images/self_compassion_workshop.jpg"
+      },
+      {
+        "event_name": "Cognitive Behavioral Therapy",
+        "time": "18:00 - 19:00",
+        "date": "2024-09-18",
+        "description": "An introductory session on the principles of CBT and how it can be used to manage anxiety and depression.",
+        "duration": "60 minutes",
+        "Organizer": "Mindful Pathways",
+        "image": "https://example.com/images/cbt_basics.jpg"
+      },
+      {
+        "event_name": "Mindfulness Meditation",
+        "time": "19:00 - 19:30",
+        "date": "2024-09-18",
+        "description": "A guided meditation session focused on mindfulness, helping participants stay grounded in the present moment.",
+        "duration": "30 minutes",
+        "Organizer": "Present Moment Collective",
+        "image": "https://example.com/images/mindfulness_meditation.jpg"
+      },
+      {
+        "event_name": "Resilience Building Workshop",
+        "time": "19:30 - 20:15",
+        "date": "2024-09-18",
+        "description": "A workshop on developing resilience and coping strategies to better handle life’s challenges.",
+        "duration": "45 minutes",
+        "Organizer": "RiseUp Together",
+        "image": "https://example.com/images/resilience_workshop.jpg"
+      },
+      {
+        "event_name": "Healing Through Writing",
+        "time": "18:00 - 18:45",
+        "date": "2024-09-19",
+        "description": "A creative writing session where participants can explore and express their emotions through writing.",
+        "duration": "45 minutes",
+        "Organizer": "Words of Healing",
+        "image": "https://example.com/images/healing_writing.jpg"
+      }
+    ]
+  
