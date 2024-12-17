@@ -1,0 +1,190 @@
+/* .mood-tracker {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .emoji-grid {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 15px 0;
+  }
+  
+  .emoji-button {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .emoji-button.selected {
+    transform: scale(1.2);
+  }
+  
+  .rating-slider {
+    margin: 20px 0;
+  }
+  
+  .track-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .track-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .mood-history {
+    margin-top: 30px;
+    text-align: left;
+  }
+  
+  .mood-history ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .mood-history li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .message {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #007bff;
+  }
+   */
+/* 
+
+
+   .mood-tracking {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: auto;
+  }
+  
+  .mood-tracking h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .mood-options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .mood-options label {
+    font-size: 18px;
+  }
+  
+  .scale-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .scale-input label {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .scale-input input {
+    width: 60px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #6c5ce7;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #5a4bc6;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+   */
+
+
+
+
+
+
+
+
+   .mood-tracking-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 50px auto;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .suggestion {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+  }
+  

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&family=Outfit:wght@100..900&display=swap');
+
+.blog-sec{
+    width: 30vw;
+    height: 65vh;
+    box-sizing: border-box;
+    padding-top: 1%;
+}
+
+.blog-card{
+    width: 28vw;
+    height: 60vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.blog-img{
+    width: 26vw;
+    height: 30vh;
+    background-color: blanchedalmond;
+    margin-top: 1%;
+    margin-left: 5%;
+    border-radius: 10px;
+}
+
+.blog-detail{
+    width: 26vw;
+    height: 20vh;
+    margin-top: 1%;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.user-name{
+    font-size: 1.3rem;
+    padding-top: 1%;
+    font-family: "Outfit", sans-serif;
+}
+
+.blog-topic{
+    font-family: "Moderustic", sans-serif;
+    font-size: 1rem;
+}
+
+.blog-des{
+    font-family: "Moderustic", sans-serif;
+    font-size: 0.9rem;
+    padding-top: 2%;
+}
+
+.read-more{
+    width: 10vw;
+    height: 5vh;
+    border: none;
+    background-color: lavender;
+    border-radius: 10px;
+    margin-left: 30%;
+    font-family: "Moderustic", sans-serif;
+    font-weight: 500;
+}
+
+.read-more:hover{
+    cursor: pointer;
+}
