@@ -21,7 +21,7 @@ const Navbar = () => {
       </div>
       <div className='nav-sec2'>
         <ul className='nav-items'>
-          <li className='item'><CgProfile className='icon' />Profile</li>
+          <li className='item'><CgProfile className='icon' /><Link to="/Profile">Profile</Link></li>
           <li className='item'><FaHouse className='icon' />Home</li>
           <li className='item'><FaQuestionCircle className='icon' />About</li>
           <li className='item'><Link to="/"><MdQuestionAnswer className='icon' />Friends</Link></li>

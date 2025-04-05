@@ -12,6 +12,7 @@ import RoomPage from "./pages/Room/RoomPage";
 import Profile from "./pages/Profile";
 import Navbar from "./components/Navbar";
 import MoodTracking from "./components/MoodTracking";
+// import Profile from "./pages/Profile";
 export default function App() {
   return (
     <BrowserRouter>

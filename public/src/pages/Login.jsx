@@ -7,10 +7,12 @@ import Logo from "../assets/Logo.jpeg";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { loginRoute } from "../utils/APIRoutes";
+import { useUserContext } from "../context/userContext";
 
 export default function Login() {
   const navigate = useNavigate();
   const [values, setValues] = useState({ username: "", password: "" });
+  const { setUser } = useUserContext(); // Access setUser from context
   const toastOptions = {
     position: "bottom-right",
     autoClose: 8000,
@@ -18,6 +20,7 @@ export default function Login() {
     draggable: true,
     theme: "dark",
   };
+
   useEffect(() => {
     if (localStorage.getItem(process.env.REACT_APP_LOCALHOST_KEY)) {
       navigate("/MainPage");
@@ -30,11 +33,8 @@ export default function Login() {
 
   const validateForm = () => {
     const { username, password } = values;
-    if (username === "") {
-      toast.error("Email and Password is required.", toastOptions);
-      return false;
-    } else if (password === "") {
-      toast.error("Email and Password is required.", toastOptions);
+    if (username === "" || password === "") {
+      toast.error("Username and Password are required.", toastOptions);
       return false;
     }
     return true;
@@ -44,20 +44,26 @@ export default function Login() {
     event.preventDefault();
     if (validateForm()) {
       const { username, password } = values;
-      const { data } = await axios.post(loginRoute, {
-        username,
-        password,
-      });
-      if (data.status === false) {
-        toast.error(data.msg, toastOptions);
-      }
-      if (data.status === true) {
-        localStorage.setItem(
-          process.env.REACT_APP_LOCALHOST_KEY,
-          JSON.stringify(data.user)
-        );
+      try {
+        const { data } = await axios.post('http://localhost:5000/api/auth/login', { username, password });
+        console.log(data);
+        if (data.status === false) {
+          toast.error(data.msg, toastOptions);
+        } else {
+          // Save to localStorage
+          localStorage.setItem(
+            process.env.REACT_APP_LOCALHOST_KEY,
+            JSON.stringify(data.user)
+          );
 
-        navigate("/MainPage");
+          // Save to UserContext
+          setUser(data.user);
+
+          // Navigate to MainPage
+          navigate("/MainPage");
+        }
+      } catch (error) {
+        toast.error("Something went wrong. Please try again later.", toastOptions);
       }
     }
   };
@@ -65,7 +71,7 @@ export default function Login() {
   return (
     <>
       <FormContainer>
-        <form action="" onSubmit={(event) => handleSubmit(event)}>
+        <form onSubmit={handleSubmit}>
           <div className="brand">
             <img src={Logo} alt="logo" />
             <h1>SoulSpace</h1>
@@ -74,18 +80,17 @@ export default function Login() {
             type="text"
             placeholder="Username"
             name="username"
-            onChange={(e) => handleChange(e)}
-            min="3"
+            onChange={handleChange}
           />
           <input
             type="password"
             placeholder="Password"
             name="password"
-            onChange={(e) => handleChange(e)}
+            onChange={handleChange}
           />
           <button type="submit">Log In</button>
           <span>
-            Don't have an account ? <Link to="/register">Create One.</Link>
+            Don't have an account? <Link to="/register">Create One.</Link>
           </span>
         </form>
       </FormContainer>

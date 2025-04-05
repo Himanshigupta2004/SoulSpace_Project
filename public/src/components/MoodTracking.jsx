@@ -312,7 +312,7 @@
 
 import React, { useState } from "react";
 import axios from "axios"; // Axios for making API requests
-import './MoodTracker.css';
+// import './MoodTracker.css';
 
 const MoodTracking = () => {
   const [moodType, setMoodType] = useState("happy");
