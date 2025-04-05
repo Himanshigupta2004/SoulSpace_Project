@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+.navbar {
+    background-color: #e0e1dd;
+    width: 17vw;
+    height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    font-family: "Kanit", sans-serif;
+    position: fixed;
+}
+
+.nav-sec1 {
+    width: 15vw;
+    height: 25vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 5%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.nav-img{
+    width: 15vw;
+    height: 20vh;
+    padding-top: 10%;
+}
+.nav-sec2 {
+    width: 15vw;
+    height: 72vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 5%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+
+.nav-items {
+    list-style: none;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 7%;
+    height: 70vh;
+    padding-top: 2%;
+}
+
+.item{
+    width: 12vw;
+    height: 7vh;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 6%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-top: 10%;
+    position: relative;
+    padding-right: 5%;
+    border: 1px solid rgba(128, 128, 128, 0.808);
+
+}
+
+.item:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #c8b6ff;
+    cursor: pointer;
+    border-style: none;
+}
+
+.inner-item{
+    width: 12vw;
+    height: 28vh;
+    background-color: black;
+    position: absolute;
+    left: 112%;
+    bottom: -30%;
+    border-radius: 10px;
+    transition: all 3s linear;
+    list-style: none;
+    padding-left: 8%;
+    padding-top: 4%;
+}
+
+
+.item2{
+    width: 10vw;
+    height: 5vh;
+    background-color: white;
+    margin-top: 5%;
+    text-align: center;
+    padding-top: 5%;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.icon{
+    font-size: 1.3rem;
+    margin-right: 3%;
+    padding-top: 3%;
+    /* background-color: #c8b6ff; */
+}

@@ -1,0 +1,11 @@
+.main-sections{
+    display: flex;
+}
+
+.side-section{
+    /* background-color: rgba(27, 2, 43, 0.679); */
+    background-color: #e8dde3bc;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
